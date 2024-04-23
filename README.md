@@ -97,3 +97,33 @@ Platforms are special collision boxes. If you jump from below, they do not colli
 <p align="center">
   <img src="docs/checkpoint.png">
 </p>
+
+### Enemies and Traps
+
+Enemies and traps should also be added to the "SpawnPoints" layer.
+
+#### Spikes
+
+* Class: Spikes
+* Required size: 1x1
+* Custom Properties: None
+
+<p align="center">
+  <img src="docs/spikes.png">
+</p>
+
+#### Saw
+
+* Class: Saw
+* Required size: 2x2
+* Custom Properties:
+    * isVertical (boolean): true/false
+      * Should the saw move vertically (true) or horizontally (false)?
+    * offsetNeg (double): [0.0, inf]
+      * How far (# of tiles) should the saw move to the left (if horizontal) or to up (if vertical)
+    * offsetPos (double): [0.0, inf]
+      * How far (# of tiles) should the saw move to the right (if horizontal) or to down (if vertical)
+
+<p align="center">
+  <img src="docs/saw.png">
+</p>
