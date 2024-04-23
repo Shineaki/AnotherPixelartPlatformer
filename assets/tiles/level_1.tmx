@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="52">
+ <tileset firstgid="1" source="another_pixelart_platformer.tsx"/>
+ <layer id="1" name="Background" width="40" height="23">
+  <properties>
+   <property name="BackgroundColor" value="Yellow"/>
+  </properties>
+  <data encoding="csv">
+112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,
+112,92,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,93,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,112,
+112,113,7,8,8,9,0,0,0,0,0,0,0,0,0,0,7,8,8,9,0,0,13,14,14,15,0,0,13,14,14,15,0,0,7,8,8,9,111,112,
+112,113,29,30,30,31,0,0,0,0,0,0,0,0,0,0,29,30,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,30,31,111,112,
+112,113,29,30,30,7,8,9,0,0,0,0,0,0,0,0,29,30,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,30,31,111,112,
+112,113,29,32,8,8,33,32,8,8,8,8,8,8,8,8,33,30,30,32,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,33,30,31,111,112,
+112,114,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,115,112,
+112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112
+</data>
+ </layer>
+ <objectgroup id="3" name="Collisions">
+  <object id="5" type="Border" x="0" y="0" width="640" height="32"/>
+  <object id="7" type="Border" x="0" y="32" width="32" height="288"/>
+  <object id="8" type="Border" x="608" y="32" width="32" height="288"/>
+  <object id="9" type="Border" x="0" y="320" width="640" height="48"/>
+  <object id="24" type="Block" x="32" y="272" width="64" height="48"/>
+  <object id="25" type="Block" x="256" y="272" width="64" height="48"/>
+  <object id="39" type="Block" x="544" y="272" width="64" height="48"/>
+  <object id="41" type="Block" x="96" y="304" width="32" height="16"/>
+  <object id="46" type="Block" x="352" y="272" width="64" height="16"/>
+  <object id="47" type="Block" x="448" y="272" width="64" height="16"/>
+ </objectgroup>
+ <objectgroup id="2" name="SpawnPoints">
+  <object id="4" name="Player" type="Player" x="48" y="240" width="32" height="32"/>
+  <object id="26" name="Bananas" type="Fruit" x="416" y="288" width="32" height="32"/>
+  <object id="27" name="Apple" type="Fruit" x="96" y="272" width="32" height="32"/>
+  <object id="28" name="Cherries" type="Fruit" x="256" y="240" width="32" height="32"/>
+  <object id="31" name="Orange" type="Fruit" x="464" y="208" width="32" height="32"/>
+  <object id="33" name="Pineapple" type="Fruit" x="144" y="224" width="32" height="32"/>
+  <object id="34" name="Strawberry" type="Fruit" x="368" y="208" width="32" height="32"/>
+  <object id="35" name="Saw" type="Saw" x="272" y="176" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="true"/>
+    <property name="offsetNeg" type="float" value="3"/>
+    <property name="offsetPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="36" name="Saw" type="Saw" x="304" y="304" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="false"/>
+    <property name="offsetNeg" type="float" value="0"/>
+    <property name="offsetPos" type="float" value="14"/>
+   </properties>
+  </object>
+  <object id="37" name="Saw" type="Saw" x="416" y="272" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="true"/>
+    <property name="offsetNeg" type="float" value="9"/>
+    <property name="offsetPos" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="40" name="Checkpoint" type="Checkpoint" x="544" y="208" width="64" height="64"/>
+  <object id="43" name="Chicken" type="Chicken" x="224" y="288" width="32" height="32">
+   <properties>
+    <property name="offsetNeg" type="float" value="7"/>
+    <property name="offsetPos" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="44" name="Saw" type="Saw" x="528" y="304" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="false"/>
+    <property name="offsetNeg" type="float" value="14"/>
+    <property name="offsetPos" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="48" name="Pineapple" type="Fruit" x="208" y="224" width="32" height="32"/>
+  <object id="49" name="Pineapple" type="Fruit" x="176" y="224" width="32" height="32"/>
+  <object id="50" name="Cherries" type="Fruit" x="288" y="240" width="32" height="32"/>
+  <object id="51" name="Bananas" type="Fruit" x="416" y="176" width="32" height="32"/>
+ </objectgroup>
+</map>

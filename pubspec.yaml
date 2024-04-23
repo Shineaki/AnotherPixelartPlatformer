@@ -1,0 +1,57 @@
+name: another_pixelart_platformer
+description: "Yep, another 2D pixelart platformer game."
+publish_to: 'none'
+version: 1.0.0+5
+environment:
+  sdk: '>=3.5.0-5.0.dev <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  flutter_exit_app: ^1.1.2
+  flame: ^1.17.0
+  flame_tiled: ^1.20.0
+  flame_audio: ^2.10.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/Icons/icon1.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  windows:
+    generate: true
+    image_path: "assets/images/Icons/icon1.png"
+    icon_size: 64 # min:48, max:256, default: 48
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/audio/bgmusic/
+    - assets/images/
+    - assets/images/Main Characters/
+    - assets/images/Main Characters/Mask Dude/
+    - assets/images/Main Characters/Ninja Frog/
+    - assets/images/Main Characters/Pink Man/
+    - assets/images/Main Characters/Virtual Guy/
+    - assets/images/Enemies/Chicken/
+    - assets/images/Enemies/BlueBird/
+    - assets/images/Enemies/Trunk/
+    - assets/images/Other/
+    - assets/images/HUD/
+    - assets/images/HUD/Stars/
+    - assets/images/HUD/DefaultRect.png
+    - assets/images/Traps/Saw/
+    - assets/images/Traps/Spikes/
+    - assets/images/Background/
+    - assets/images/Items/Fruits/
+    - assets/images/Items/Checkpoints/Checkpoint/
+    - assets/tiles/
